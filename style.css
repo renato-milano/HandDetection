@@ -1,25 +1,24 @@
 body {
-    background-color: rgb(255, 255, 255);
-  }
-  
-  #canvas{
-    position: absolute;
-    top: 500px;
-    left: 35%;
-    z-index:1;
-  }
-  #scelta{
-    position: absolute;
+  background-color: rgb(255, 255, 255);
+}
 
-    left: 670px;
-  }
-  
-  #video{
-    position: absolute;
-    top: 10px;
-    left: 35%;
-    z-index:-1;
-    border: 3px #fff solid;
-      border-radius: 10px;
-  }
-  
+#canvas{
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  z-index:1;
+}
+#scelta{
+  position: absolute;
+
+  left: 670px;
+}
+
+#video{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index:-1;
+  border: 3px #fff solid;
+    border-radius: 10px;
+}
