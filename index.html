@@ -9,8 +9,8 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
   <div id="scelta">
-  <p><input type="checkbox" id="opt1" name="opzione" value="IndiciMagici"> Indici Magici</p>
-  
+  <p><input type="checkbox" id="opt1" name="opzione" value="IndiciMagici"> INDICI MAGICI</p>
+  <p><input type="checkbox" onclick="FullScreen()" id="optFULL" name="opzioneFS" value="FullScreen"> FULLSCREN</p>
 </div>
   <script defer language="javascript" type="text/javascript" src="detection.js"></script>
   <script defer language="javascript" type="text/javascript" src="sketch.js"></script>
@@ -20,4 +20,17 @@
 <body>
   <video id="video" width="640" height="480"></video>
 </body>
+<script>
+
+function FullScreen(){
+  if(document.getElementById("optFULL").checked){
+    document.getElementById("canvas").classList.add("FullScreen");
+    document.getElementById("video").style.display="none";
+  }else{
+    document.getElementById("canvas").classList.remove("FullScreen");
+    document.getElementById("video").style.display="";
+  }
+}
+
+</script>
 </html>

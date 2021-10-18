@@ -10,8 +10,8 @@ body {
 }
 #scelta{
   position: absolute;
-
-  left: 670px;
+  z-index: 9999;
+  left:85%;
 }
 
 #video{
@@ -21,4 +21,12 @@ body {
   z-index:-1;
   border: 3px #fff solid;
     border-radius: 10px;
+}
+
+.FullScreen{
+  top:0 !important;
+  left: 0 !important;
+  position: absolute;
+  width:100% !important;
+  height: 100% !important;
 }
