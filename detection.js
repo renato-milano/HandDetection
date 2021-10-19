@@ -19,7 +19,7 @@ hands.onResults(gotHands);
 
 function gotHands(results) {
   detections = results;
-  console.log(detections);
+  //console.log(detections);
   //console.log("DUCE")
 }
 
